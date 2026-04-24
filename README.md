@@ -67,7 +67,7 @@ class QueueWithStacks:
     def size(self):
         return len(self.stack_in) + len(self.stack_out)
 
-# --- Пример использования ---
+#  Пример использования
 queue = QueueWithStacks(max_size=3)
 queue.enqueue(10)
 queue.enqueue(20)
